@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section>
+        <div class="weather">
+            <div class="card-weather">
+                <h1 class="title">Weather now</h1>
+                <div class="form">
+                    <input type="text" id="input" placeholder="Tap your city:">
+                    <button type="submit" id="search" onclick="getApi()"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+
+                <div id="dadosPesquisa">
+                <h2 id="state">..</h2>
+                
+                <img src="" alt="" srcset="" id="photo">
+                
+                <div class="city--temp">
+                <h2 id="city">..</h2>
+                <h1 id="temp">..</h1>
+                </div>
+                <br>
+                <p>Humidity: <span id="humidity">..</span></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/5dfb4ac132.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
