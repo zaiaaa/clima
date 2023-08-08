@@ -21,23 +21,24 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 95%;
-    padding: .4rem 2rem .2rem 2rem;
+    width: 85%;
+    padding: 1rem 2rem .4rem 2rem;
     border-radius: 15px;
+    border: 15px solid white;
 }
 .title{
     font-size: 25px;
     margin-bottom: .7rem;
 }
 
-.form{
+#form{
     position: relative;
     display: flex;
     align-items: center;
     margin-bottom: .5rem;
 }
 #input{
-    padding: .25rem;
+    padding: .35rem;
     font-weight: 600;
     border-radius: 10px;
     border: 1px solid red;
@@ -61,12 +62,24 @@
     transform: rotate(360deg);
 }
 
+#error{
+    background-color: rgb(255, 78, 78);
+    position: absolute;
+    top: 0;
+    margin-left: 2rem;
+    display: none;
+    padding: .2rem;
+    border-radius: .5rem;
+    transition: .5s;
+}
+
+
 .city--temp{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: .5rem 0;
+    margin: 0 0 1rem 0;
 }
 
 #photo{

@@ -13,24 +13,26 @@
         <div class="weather">
             <div class="card-weather">
                 <h1 class="title">Weather now</h1>
-                <div class="form">
+                <div id="form">
                     <input type="text" id="input" placeholder="Tap your city:">
                     <button type="submit" id="search" onclick="getApi()"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <div id="error">
+                        City not found!
+                    </div>            
                 </div>
 
                 <div id="dadosPesquisa">
-                <h2 id="state">..</h2>
+                <h2 id="state">...</h2>
                 
                 <img src="" alt="" srcset="" id="photo">
                 
                 <div class="city--temp">
-                <h2 id="city">..</h2>
-                <h1 id="temp">..</h1>
+                <h2 id="city">...</h2>
+                <h1 id="temp">...</h1>
                 </div>
-                <br>
-                <p>Humidity: <span id="humidity">..</span></p>
+                <p>Humidity: <span id="humidity">...</span></p>
+                <p>Wind speed: <span id="wind">...</span></p>
                 </div>
-
             </div>
         </div>
     </section>
