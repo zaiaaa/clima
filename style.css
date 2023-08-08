@@ -14,7 +14,7 @@
     background-color: #1f1f1f;
 }
 .card-weather{
-    background-color: #e6e6e6;
+    background-color: #e9e9e9;
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@
     width: 85%;
     padding: 1rem 2rem .4rem 2rem;
     border-radius: 15px;
-    border: 15px solid white;
+    border: 5px solid #5b8dce;
 }
 .title{
     font-size: 25px;
@@ -41,8 +41,8 @@
     padding: .35rem;
     font-weight: 600;
     border-radius: 10px;
-    border: 1px solid red;
-    border-color: red;
+    border: 1px solid #5b8dce;
+    border-color: #5b8dce;
     outline: none;
 }
 #search{
@@ -52,13 +52,13 @@
     position: absolute;
     margin-left: 11rem;
     border-radius: 50%;
-    border: 1px solid red;    
+    border: 1px solid #5b8dce;    
     cursor: pointer;
     transition: .5s;
 }
 #search:hover{
     transition: .5s;
-    background-color: red;
+    background-color: #5b8dce;
     transform: rotate(360deg);
 }
 
