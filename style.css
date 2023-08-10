@@ -50,11 +50,11 @@
     width: 40px;
     height: 40px;
     position: absolute;
-    margin-left: 11rem;
     border-radius: 50%;
     border: 1px solid #5b8dce;    
     cursor: pointer;
     transition: .5s;
+    right: -1rem;
 }
 #search:hover{
     transition: .5s;
